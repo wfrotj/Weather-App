@@ -7,15 +7,22 @@
     <title>Asynchronous JavaScript</title>
   </head>
   <body>
-    <form>
-      <input
-        type="text"
-        name="search-weather-input"
-        id="search-weather-input"
-      />
-      <button id="search-weather-btn" type="submit">Search</button>
-    </form>
-    <div id="app"></div>
+    <div id="root">
+      <h1>Real-time Clock</h1>
+      <p id="clock"></p>
+      <p id="time-of-day"></p>
+
+      <form>
+        <input
+          type="text"
+          name="search-weather-input"
+          id="search-weather-input"
+        />
+        <button id="search-weather-btn" type="submit">Search</button>
+      </form>
+      <div id="clock"></div>
+      <div id="app"></div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

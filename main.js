@@ -1,6 +1,7 @@
 import "./style.css";
 import fetchCurrentWeather from "./src/fetchCurrentWeather";
 import appendWeather from "./src/appendWeather";
+import updateTime from "./src/updateTime";
 
 const searchWeatherBtn = document.getElementById("search-weather-btn");
 const searchWeatherInput = document.getElementById("search-weather-input");
@@ -16,6 +17,16 @@ searchWeatherBtn.addEventListener("click", (event) => {
     searchWeatherInput.value = "";
   });
 });
+
+/*
+const SPOTIFY_PLAYLIST_ID = "37i9dQZF1DXcBWIGoYBM5M";
+const playlistId = "SPOTIFY_PLAYLIST_ID";
+const spotifyLink = `https://open.spotify.com/playlist/${playlistId}`;
+
+window.location.href = spotifyLink;
+*/
+/*
+ */
 /*
 const currentWeather =
   '{"location": "Manila","temperature": 30,"country": "PH","cities": ["Pasig,Caloocan, Makati"]}';
