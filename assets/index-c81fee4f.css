@@ -1,0 +1,1 @@
+#root{display:flex;flex-direction:column;align-items:center;justify-content:center;margin:4em auto;background-image:url(/weather-app/assets/morning-fc1aa0b0.jpg);background-repeat:no-repeat;background-size:cover;height:100vh}main{width:400px;display:flex;flex-direction:column;padding:1em;align-items:center}h1{text-align:center}h2{margin-top:.25em;color:#fff}
