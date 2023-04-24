@@ -2,7 +2,7 @@
   "name": "asynch-js",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/wfrotj/Weather-App",
+  "homepage": "https://wfrotj.github.io/async-js",
   "type": "module",
   "scripts": {
     "dev": "vite",
